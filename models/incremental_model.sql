@@ -12,7 +12,7 @@ SELECT
   id,
   item_id,
   event_date,
-  'was_new' as is_new
+
 FROM
   sqlmesh_example.seed_model
 WHERE
