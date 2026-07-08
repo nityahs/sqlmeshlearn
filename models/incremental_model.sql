@@ -11,8 +11,8 @@ MODEL (
 SELECT
   id,
   item_id,
-  event_date,
-  'was_new' as is_new
+  event_date
+
 FROM
   sqlmesh_example.seed_model
 WHERE
