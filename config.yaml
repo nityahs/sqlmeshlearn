@@ -37,6 +37,7 @@ model_defaults:
 linter:
   enabled: true
   rules:
+    - noselectstar
     - ambiguousorinvalidcolumn
     - invalidselectstarexpansion
     - noambiguousprojections
